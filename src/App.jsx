@@ -1,13 +1,12 @@
 import './App.css'
+import Clock from './Clock'
 
 function App() {
-
-  const message = 'Hello World!'
-
+  
   return (
     <>
       <main>
-        <h1>{message}</h1>
+        <Clock />
       </main>
     </>
   )
